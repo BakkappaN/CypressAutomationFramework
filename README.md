@@ -8,15 +8,15 @@ Download link: https://nodejs.org/en/download/?msclkid=9235b36aae8711ec83c8dcadd
 Download link: https://code.visualstudio.com/Download?msclkid=27c13200a9b411ec9558d874544e8563#
 
 ## Step3: In C driver only, Creater Project folder & enter "npm init" in CMD
-package name: (cypressautomationframework)
-version: (1.0.0)
-description: test cypress
-entry point: (index.js)
-test command:
-git repository:
-keywords:
-author:
-license: (ISC)
+  package name: (cypressautomationframework)
+  version: (1.0.0)
+  description: test cypress
+  entry point: (index.js)
+  test command:
+  git repository:
+  keywords:
+  author:
+  license: (ISC)
 
 make sure package.json file created
 
