@@ -28,6 +28,15 @@ make sure all the cypress folders got downloaded & installed
 ## Step6: Enter "node_module\.bin\cypress open",
 make sure TestRunner Window opened, start writing test..... 
 
+## ======================================================================================================================== 
+- To run all the scripts from CLI or command, run below cmd
+          .\node_modules\.bin\cypress run
+          
+- To run specific suite, run below cmd
+          .\node_modules\.bin\cypress run --spec .\cypress\integration\demo.spec.js
+          
+          
+          
 ##End
 
 # ENJOY...!!!
