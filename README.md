@@ -34,7 +34,9 @@ make sure TestRunner Window opened, start writing test.....
           
 ## To run specific suite, run below cmd
           .\node_modules\.bin\cypress run --spec .\cypress\integration\demo.spec.js
-          
+## To debug or to run specific test, run below cmd
+          we need to use only key word after it block
+          it.**only**('dropdown',() => {
           
           
 ## End
