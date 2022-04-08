@@ -64,7 +64,7 @@ describe('My First Test', () => {
         cy.get('option')
             .then($els => Cypress.$.map($els, (el) => el.innerText.trim())) // uses jQuery .map()
             .should(values => {
-                expect(values).to.deep.eq(["Volvo", "Saab","Mercedes", "Audi"])
+                expect(values).to.deep.eq(["Volvo", "Saab", "Mercedes", "Audi"])
             })
     })
 
@@ -73,18 +73,18 @@ describe('My First Test', () => {
         cy.contains('See a sample confirm').click();
         cy.wait(2000)
 
-         //verify text on alert popup
-        cy.on('window:alert',(text)=>{
+        //verify text on alert popup
+        cy.on('window:alert', (text) => {
             expect(text).to.contains('Are you sure?')
         })
 
         //confirm alert by clicking
-        cy.on('window:confirm',(text)=>{
+        cy.on('window:confirm', (text) => {
             expect(text).to.equal('Are you sure?')
         })
 
         cy.contains('See a sample confirm').click();
-        
+
     });
 
 
